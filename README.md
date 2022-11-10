@@ -28,20 +28,20 @@ Axios (Promise based HTTP client for the browser : https://www.npmjs.com/package
 ### General API Payload and description:
 
 It is assumed that API payload should be of following format :
-
--  {
--  query: {},
--  options: {
--       select: {},
--       limit: 10,
--       page: 1,
--       sort: {},
--       pagination: true,
--       populate: [],
--  },
--  search: {},
--  }
-
+```
+   {
+      query: {},
+      options: {
+         select: {},
+         limit: 10,
+         page: 1,
+         sort: {},
+         pagination: true,
+         populate: [],
+      },
+      search: {},
+   }
+```
 Where,
 
 -  Query: Object. It is an object which can be configured to send custom queries to the API.
